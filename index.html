@@ -28,6 +28,21 @@
       width: 100%;
       max-width: 600px;
     }
+    .button-list:nth-child(0) {
+      margin-right: 250px;
+    }
+    .button-list>button {
+      margin-right: 5px;
+      margin-left: 5px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .robux-btn {
+    background: limegreen;
+      border-radius: 10px;
+      width: 9%;
+      height: 40px;
+    }
   </style>
 </head>
 
@@ -36,9 +51,13 @@
   <h1>Er ist so hot 😫</h1>
   <p><em>10 Gründe warum man <strong style="color: darkred;">DRAKE</strong> <strong>LIEBEN</strong> sollte 😫</em></p>
   <br>
-  <h3>Fortinite y la Babaji</h3>
-  <button onclick="window.location = 'https://youtu.be/SEpJkA6Fjpg';">Fortinite</button>
-  <button onclick="window.location = 'https://youtu.be/SEpJkA6Fjpg';">Babaji</button>
+  <h3 style="color: yellow">Fortinite y la Babaji</h3>
+
+  <div class="button-list">
+    <button style="background: yellow" onclick="window.location = 'https://youtu.be/SEpJkA6Fjpg';"><strong>Fortinite</strong></button>
+    <button style="background: yellow" onclick="window.location = 'https://youtu.be/SEpJkA6Fjpg';"><strong>Babaji</strong></button>
+  </div>
+
   <br>
   <br>
   <ol>
@@ -84,7 +103,8 @@
       <img src="img/imgsexy.png" alt="">
     </li>
   </ol>
-
+  <h3 style="color: limegreen"><strong>Gratis Robux hier</strong></h3>
+  <button class="robux-btn" onclick="window.location = 'https://robux.kotw.dev/';"><strong>Robux</strong> </button>
 </body>
 
 </html>
