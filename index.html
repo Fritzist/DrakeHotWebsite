@@ -23,6 +23,9 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
     img{
       width: 100%;
@@ -32,16 +35,19 @@
       margin-right: 250px;
     }
     .button-list>button {
+      cursor: pointer;
+      border: none;
       margin-right: 5px;
       margin-left: 5px;
       padding: 10px;
       border-radius: 10px;
     }
     .robux-btn {
-    background: limegreen;
+      cursor: pointer;
+      background: lime;
+      border: none;
       border-radius: 10px;
-      width: 9%;
-      height: 40px;
+      padding: 10px 80px;
     }
   </style>
 </head>
@@ -103,7 +109,7 @@
       <img src="img/imgsexy.png" alt="">
     </li>
   </ol>
-  <h3 style="color: limegreen"><strong>Gratis Robux hier</strong></h3>
+  <h3 style="color: lime"><strong>Gratis Robux hier</strong></h3>
   <button class="robux-btn" onclick="window.location = 'https://robux.kotw.dev/';"><strong>Robux</strong> </button>
 </body>
 
