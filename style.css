@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+body{
+    background: black;
+    color: antiquewhite;
+    font-family: 'Rowdies', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    max-width: 600px;
+}
+.button-list:nth-child(0) {
+    margin-right: 250px;
+}
+.button-list>button {
+    cursor: pointer;
+    border: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.robux-btn {
+    cursor: pointer;
+    background: lime;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 80px;
+}
+#button-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+    transition: all 0.3s ease;
+}
+#button-home:hover {
+    color: white;
+    border-color: white;
+}
